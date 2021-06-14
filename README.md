@@ -12,3 +12,21 @@ Simply compress the Terminal Filesystem to 0.tar and set parameters in the heade
 
 Read the pinp() function first to gather full functionality.
 
+VMDeploy.pl :
+
+Deploys KVM Virtual Machine images along with automagic KVM configuration complete with SPICE and USB Support using initial template.
+
+Backup.pl :
+
+Will Mount a Backup Filesystem and Snapshot Filesystem to expedite live KVM Backups with full KVM configuration export and hash checking with automatic unmount after backup is over.
+
+Good enough to run against cron after successfull initial use.
+
+Restore.pl:
+
+Very simple Restore Function which moves over corrupt disk and re-deploys KVM Files according to the Virtual Machine Name provided.
+
+(Made to only affect a single machine at a time as a fail-safe to prevent accidential mass deletion).
+
+
+
