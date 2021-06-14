@@ -4,11 +4,11 @@ This library currently contains 4 scripts which will make the life of any Gentoo
 
 Deploy.pl:
 
-Automates deployment of Diskless Gentoo Terminals. (3 Seconds Per Terminal, can deploy hundreds if not thousands of machines)
+Automates deployment of Diskless Gentoo Terminals. (3 Seconds Per Terminal, can deploy hundreds if not thousands of machines automatically)
 
-Can be used after creating initial Terminal after completing Gentoo Diskless Tutorial from Official Gentoo Wiki.
+Can be used after creating initial Terminal following completion of the Gentoo Diskless Tutorial from Official Gentoo Wiki.
 
-Simply compress the Terminal Filesystem to 0.tar and set parameters in the header of the script.
+Compress the Terminal Filesystem Build to 0.tar and set parameters in the header of the script.
 
 Hardware Terminals need only be given a DHCP Reservation and PXE Boot Config in BIOS.
 
